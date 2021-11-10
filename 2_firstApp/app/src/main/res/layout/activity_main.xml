@@ -24,7 +24,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/adam_baptista"
         android:textColor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -46,5 +46,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:id="@+id/gotoWeatherButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        android:id="@+id/gotoResumeButton"
+        app:layout_constraintBottom_toBottomOf="@+id/gotoWeatherButton"
+        app:layout_constraintTop_toTopOf="@+id/gotoWeatherButton"
+        app:layout_constraintRight_toLeftOf="@+id/gotoWeatherButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:id="@+id/gotoAboutMe"
+        app:layout_constraintBottom_toBottomOf="@+id/gotoWeatherButton"
+        app:layout_constraintTop_toTopOf="@+id/gotoWeatherButton"
+        app:layout_constraintLeft_toRightOf="@+id/gotoWeatherButton"
+        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
