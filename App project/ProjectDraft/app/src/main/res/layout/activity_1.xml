@@ -14,5 +14,352 @@
         android:layout_marginBottom="652dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="59dp"
+        android:text="@string/matching"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageButton"/>
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="74dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="652dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/settings"
+        android:textSize="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/imageButton"
+        app:layout_constraintStart_toStartOf="@id/imageButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:padding="10dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/name"
+                        android:layout_columnSpan="1"
+                        />
+
+                    <TextView
+                        android:text="@integer/age"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@integer/weight_class"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/combat_sport"
+                        android:layout_columnSpan="2"
+                        />
+                    <TextView
+                        android:text="@string/experience"
+                        android:layout_columnSpan="1"
+                        />
+                    <TextView
+                        android:text="@string/distance"
+                        android:layout_columnSpan="2"
+                        />
+                </GridLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

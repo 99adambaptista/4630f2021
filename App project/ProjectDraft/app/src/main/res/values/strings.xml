@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">ProjectDraft</string>
+    <string name="back_button">back button</string>
+    <string name="settings">Settings</string>
+    <string name="name">Name</string>
+    <integer name="age">0</integer>
+    <integer name="weight_class">0</integer>
+    <string name="combat_sport">Combat sport</string>
+    <string name="experience">Experience</string>
+    <string name="distance">0mi</string>
+    <string name="matching">Matching</string>
+    <string name="profile">Profile</string>
+    <string name="location">Location</string>
 </resources>
