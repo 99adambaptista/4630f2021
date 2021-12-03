@@ -22,7 +22,7 @@
         android:layout_height="142dp"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="280dp"
-        android:text="Matching"
+        android:text="Profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

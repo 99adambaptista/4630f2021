@@ -17,6 +17,19 @@
         app:srcCompat="?attr/actionModeCloseDrawable"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/editProfile"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="652dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/profileTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:text="Edit Profile"
+        />
+
     <TextView
         android:layout_width="176dp"
         android:layout_height="59dp"
@@ -25,7 +38,8 @@
         android:textSize="40dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/imageButton"/>
+        app:layout_constraintTop_toTopOf="@id/imageButton"
+        android:id="@+id/profileTitle"/>
 
     <ImageView
         android:id="@+id/profilePicture"

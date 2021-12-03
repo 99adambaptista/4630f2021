@@ -11,4 +11,6 @@
     <string name="matching">Matching</string>
     <string name="profile">Profile</string>
     <string name="location">Location</string>
+    <string name="age">Age</string>
+    <string name="weight_class">Weight</string>
 </resources>
